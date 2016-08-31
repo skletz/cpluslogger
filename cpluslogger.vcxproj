@@ -11,16 +11,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cpluslogger\cplusLoggerDefaults.h" />
-    <ClInclude Include="cpluslogger\cplusLoggerGlobal.h" />
-    <ClInclude Include="cpluslogger\cplusLoggerMacros.h" />
-    <ClInclude Include="cpluslogger\DebugLevel.hpp" />
-    <ClInclude Include="cpluslogger\Logger.hpp" />
-    <ClInclude Include="cpluslogger\ReportingLevel.hpp" />
+    <ClInclude Include="cpluslogger\include\cpluslogger.h" />
+    <ClInclude Include="cpluslogger\src\cplusLoggerDefaults.h" />
+    <ClInclude Include="cpluslogger\src\cplusLoggerGlobal.h" />
+    <ClInclude Include="cpluslogger\src\cplusLoggerMacros.h" />
+    <ClInclude Include="cpluslogger\src\DebugLevel.hpp" />
+    <ClInclude Include="cpluslogger\src\Logger.hpp" />
+    <ClInclude Include="cpluslogger\src\ReportingLevel.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cpluslogger\demo.cpp" />
-    <ClCompile Include="cpluslogger\Logger.cpp" />
+    <ClCompile Include="cpluslogger\src\demo.cpp" />
+    <ClCompile Include="cpluslogger\src\Logger.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8DA23BF9-79EA-47F0-92B8-6538241EF7E8}</ProjectGuid>
