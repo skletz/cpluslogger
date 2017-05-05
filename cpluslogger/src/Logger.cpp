@@ -55,7 +55,16 @@ void cpluslogger::Logger::write()
 	}
 	
 	std::cout << mStream.str() << std::endl;
-	mStream.str("");
+
+	try
+	{
+		mStream.str("");
+		mStream.clear();
+	}catch(const std::exception& e)
+	{
+		std::cout << "An exception occurred during Logging. Exception Nr. " << e.what() << '\n';
+	}
+
 }
 
 void cpluslogger::Logger::logging(bool _enable)
@@ -134,9 +143,16 @@ std::ostringstream& cpluslogger::Logger::log(DebugLevel _level)
 
 std::ostringstream& cpluslogger::Logger::log(std::string _what)
 {
-	mStream.str("");
+	mStream.clear();
 	mStream << kNowTime();
-	mStream << " P" << _what << ":\t";
+	try
+	{
+		mStream << " P" << _what << ":\t";
+	}
+	catch (const std::exception& e)
+	{
+		std::cout << "An exception occurred during Logging. Exception Nr. " << e.what() << '\n';
+	}
 	return mStream;
 }
 

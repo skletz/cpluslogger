@@ -11,8 +11,8 @@
       <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(OpenCV_DIR)\x86\vc12\staticlib;$(OpenCV_DIR)\x86\vc12\lib;$(OpenCV_DIR)\x86\vc12\bin;$(Boost_DIR)\stage\lib\win32</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_calib3d300d.lib;opencv_core300d.lib;opencv_features2d300d.lib;opencv_flann300d.lib;opencv_hal300d.lib;opencv_highgui300d.lib;opencv_imgcodecs300d.lib;opencv_imgproc300d.lib;opencv_ml300d.lib;opencv_objdetect300d.lib;opencv_photo300d.lib;opencv_shape300d.lib;opencv_stitching300d.lib;opencv_superres300d.lib;opencv_ts300d.lib;opencv_video300d.lib;opencv_videoio300d.lib;opencv_videostab300d.lib;IlmImfd.lib;ippicvmt.lib;libwebpd.lib;libjasperd.lib;libjpegd.lib;libpngd.lib;libtiffd.lib;zlibd.lib;vfw32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OpenCV_DIR)\x64\vc14\staticlib;$(OpenCV_DIR)\x64\vc14\lib;$(OpenCV_DIR)\x64\vc14\bin;$(Boost_DIR)\stage\lib\vc140\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world310d.lib;opencv_world310.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
