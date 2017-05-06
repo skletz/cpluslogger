@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cpluslogger\src\cplusLoggerDefaults.h">
+    <ClInclude Include="..\cpluslogger\include\cpluslogger.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="cpluslogger\src\cplusLoggerGlobal.h">
+    <ClInclude Include="..\cpluslogger\src\cplusLoggerDefaults.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="cpluslogger\src\cplusLoggerMacros.h">
+    <ClInclude Include="..\cpluslogger\src\cplusLoggerGlobal.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="cpluslogger\src\DebugLevel.hpp">
+    <ClInclude Include="..\cpluslogger\src\cplusLoggerMacros.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="cpluslogger\src\Logger.hpp">
+    <ClInclude Include="..\cpluslogger\src\DebugLevel.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="cpluslogger\src\ReportingLevel.hpp">
+    <ClInclude Include="..\cpluslogger\src\Logger.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="cpluslogger\include\cpluslogger.h">
+    <ClInclude Include="..\cpluslogger\src\ReportingLevel.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cpluslogger\src\demo.cpp">
+    <ClCompile Include="..\cpluslogger\src\demo.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="cpluslogger\src\Logger.cpp">
+    <ClCompile Include="..\cpluslogger\src\Logger.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
