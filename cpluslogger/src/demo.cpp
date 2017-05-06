@@ -1,4 +1,26 @@
-#include "Logger.hpp"
+/** CPLUSUtil (Version 2.0) ****************************
+* ******************************************************
+*       _    _      ()_()
+*      | |  | |    |(o o)
+*   ___| | _| | ooO--`o'--Ooo
+*  / __| |/ / |/ _ \ __|_  /
+*  \__ \   <| |  __/ |_ / /
+*  |___/_|\_\_|\___|\__/___|
+*
+* ******************************************************
+* This library provides several help classes and functions, 
+* such as file input/output or string operations as well as 
+* managing files and directories.
+* ******************************************************
+* 
+* Purpose: Demo Usage
+*
+* @author skletz
+* @version 2.0 06/05/17
+*
+**/
+
+#include "../include/cpluslogger.hpp"
 
 using namespace cpluslogger;
 

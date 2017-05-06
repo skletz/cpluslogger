@@ -254,3 +254,11 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+#NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/

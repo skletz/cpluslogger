@@ -3,6 +3,7 @@
 //** CplusLoggerGlobal *******************************************************
 
 #include <exception>
+#include <string>
 
 #if defined(WIN32) || defined(_WIN32) || defined(__WIN32__)
 
@@ -10,7 +11,6 @@
 #define PATH_SEPARATOR "\\"
 
 #include <windows.h>
-#include <string>
 
 inline std::string kNowTime()
 {
@@ -31,6 +31,7 @@ inline std::string kNowTime()
 #include <sys/time.h>
 
 #define PATH_SEPARATOR "/" 
+
 inline std::string kNowTime()
 {
 	char buffer[11];

@@ -4,12 +4,12 @@
 #include <sstream>
 #include <string>
 
-#include "cplusLoggerMacros.h"
-#include "cplusLoggerGlobal.h"
+#include "cplusLoggerMacros.hpp"
+#include "cplusLoggerGlobal.hpp"
 
 #include "ReportingLevel.hpp"
 #include "DebugLevel.hpp"
-#include "cplusLoggerDefaults.h"
+#include "cplusLoggerDefaults.hpp"
 #include <fstream>
 
 namespace cpluslogger
