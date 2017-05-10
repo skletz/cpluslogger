@@ -6,7 +6,7 @@ CXX=g++
 CXXFLAGS=-std=c++11 -m64
 BUILD=build
 BIN=bin
-STATICLIB=staticlib
+STATICLIB=lib
 EXT=ext
 
 SRC= cpluslogger/src
