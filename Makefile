@@ -33,7 +33,7 @@ demo.o: $(SRC)/demo.cpp
 	$(CXX) $(CXXFLAGS) -fPIC -c $(SRC)/demo.cpp -o $(BUILD)/$(EXT)/demo.o
 
 static: $(BUILD)/$(EXT)/Logger.o
-	ar -rv $(BUILD)/$(LIB)/$(TARGETSTATIC) $(BUILD)/$(EXT)/Logger.o
+	ar -rv $(BUILD)/$(LIB)/lib$(TARGETSTATIC) $(BUILD)/$(EXT)/Logger.o
 
 shared: Logger.o
 	$(CXX) $(CXXFLAGS) $(LDLIBSOPTIONS) -Wall -shared -Wl,-soname, $(BUILD)/$(EXT)/Logger.o -o $(BUILD)/$(LIB)/lib$(TARGETSHARED)
