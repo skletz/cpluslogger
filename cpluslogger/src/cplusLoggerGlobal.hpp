@@ -4,8 +4,8 @@
 
 #include <exception>
 #include <string>
-
-#if defined(WIN32) || defined(_WIN32) || defined(__WIN32__)
+#include <algorithm>
+#if defined(WIN32) || defined(_WIN32) || defined(__WIN32__) || defined(_WIN64) || defined(WIN64)
 
 #define NOMINMAX
 #define PATH_SEPARATOR "\\"
@@ -30,7 +30,7 @@ inline std::string kNowTime()
 #else
 #include <sys/time.h>
 
-#define PATH_SEPARATOR "/" 
+#define PATH_SEPARATOR "/"
 
 inline std::string kNowTime()
 {
