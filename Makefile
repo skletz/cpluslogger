@@ -37,7 +37,7 @@ endif
 
 .PHONY: all
 
-all: clean directories demo shared static
+all: directories demo shared static
 
 directories:
 	mkdir -p $(BUILD)/$(BIN)
